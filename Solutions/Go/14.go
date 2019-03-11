@@ -14,9 +14,10 @@ func main() {
 	fmt.Println(longestCommonPrefix(strs))
 
 }
+
 /**
  * 水平扫描（右左）
- * 
+ *
  * 关键点：prefix
  * - 开始 prefix = strs[0]，若满足条件则返回，否则删除最后一个字符，继续匹配
  */
