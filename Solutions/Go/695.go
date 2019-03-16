@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	grid := [][]int{
@@ -14,44 +17,85 @@ func main() {
 		[]int{1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0},
 	}
 
-	fmt.Println(maxAreaOfIsland(grid))
+	// 递归
+	//fmt.Println(maxAreaOfIsland(grid))
+	// DFS
+	fmt.Println(maxAreaOfIsland2(grid))
 }
 
 func maxAreaOfIsland(grid [][]int) int {
-	var hashCount = make(map[string]int)
-	var next = make(map[string]string)
-	var max = 0
+	var m = len(grid)
+	var n = len(grid[0])
+	var res = 0.0
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			if grid[i][j] != 1 {
+				continue
+			}
+			var cnt = 0.0
+			count(grid, i, j, &cnt, &res)
+		}
+	}
 
-	for k, v := range grid {
-		for k1, v1 := range v {
-			if v1 == 1 {
-				nextKey := string(k) + "-" + string(k1)
-				if _, ok := next[nextKey]; ok {
-					// 找到头节点
-					i := nextKey
-					for next[i] != "-1" {
-						i = next[i]
+	return int(res)
+}
+
+func count(grid [][]int, i, j int, cnt, res *float64) {
+	var m = len(grid)
+	var n = len(grid[0])
+
+	if i < 0 || j < 0 || i >= m || j >= n || grid[i][j] <= 0 {
+		return
+	}
+
+	grid[i][j] = -1
+	*cnt++
+	*res = math.Max(*res, *cnt)
+
+	dirs := [][]int{[]int{0, 1}, []int{0, -1}, []int{1, 0}, []int{-1, 0}}
+	for _, dir := range dirs {
+		count(grid, i+dir[0], j+dir[1], cnt, res)
+	}
+}
+
+func maxAreaOfIsland2(grid [][]int) int {
+	var m = len(grid)
+	var n = len(grid[0])
+	var res = 0.0
+
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			if grid[i][j] != 1 {
+				continue
+			}
+
+			var cnt = 0.0
+			var q [][]int
+			q = append(q, []int{i, j})
+			grid[i][j] = -1
+
+			for len(q) > 0 {
+				item := q[0:1]
+				q = q[1:]
+
+				cnt++
+				res = math.Max(res, cnt)
+
+				dirs := [][]int{[]int{0, 1}, []int{0, -1}, []int{1, 0}, []int{-1, 0}}
+				for _, dir := range dirs {
+					x := item[0][0] + dir[0]
+					y := item[0][1] + dir[1]
+
+					if x < 0 || x >= m || y < 0 || y >= n || grid[x][y] <= 0 {
+						continue
 					}
-					hashCount[i]++
-				} else {
-					if k1 == 0 { // 判断上、下
-						up := string(k-1) + "-" + string(k1)
-						if _, ok := next[up]; ok {
 
-						}
-					} else { // 判断左、上、下
-
-					}
+					grid[x][y] = -1
+					q = append(q, []int{x, y})
 				}
-			} //end if
+			}
 		}
 	}
 
-	for _, v := range hashCount {
-		if v > max {
-			max = v
-		}
-	}
-
-	return max
+	return int(res)
 }
