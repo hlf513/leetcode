@@ -19,7 +19,7 @@ func main() {
 
 	// 递归
 	//fmt.Println(maxAreaOfIsland(grid))
-	// DFS
+	// BFS
 	fmt.Println(maxAreaOfIsland2(grid))
 }
 
