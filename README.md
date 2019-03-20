@@ -8,6 +8,7 @@
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [Go](./Solutions/Go/15.go) | [排序+三指针+剪枝](./Notes/15.md) |
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Go](./Solutions/Go/33.go) | [二分查找](./Notes/33.md) |
 |[43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)|[Go](Solutions/Go/43.go)|[按位相乘](Notes/43.md)|
+|[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Go](Solutions/Go/56.go)|[排序+遍历](Notes/56.md)|
 | [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) |[Go](Solutions/Go/60.go)|[按位找规律](Notes/60.md)|
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](Solutions/Go/71.go)|[栈](Notes/71.md)|
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
