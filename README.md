@@ -14,6 +14,7 @@
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
 |[128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Go](Solutions/Go/128.go)|[hash table](Notes/128.md)|
 | [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [Go](./Solutions/Go/151.go) | [切分翻转](Notes/151.md) |
+| [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Go](./Solutions/Go/206.go) | [迭代 、 递归](Notes/206.md) |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Go](./Solutions/Go/215.go) | [排序取值](Notes/215.md) |
 | [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [Go](./Solutions/Go/547.go) | [DFS=>BFS=>并查集](Notes/547.md) |
 | [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [Go](Solutions/Go/567.go) | [字符出现次数比较](Notes/567.md) |
