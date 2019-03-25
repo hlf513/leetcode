@@ -39,7 +39,7 @@ func reverseList(head *ListNode) *ListNode {
 */
 func reverseList2(head *ListNode) *ListNode {
 	// 退出条件
-	if head == nil || head.Next == nil { // head 用于递归出栈判断，head.Next 用于递归入栈判断
+	if head == nil || head.Next == nil { // head 用于 [] 边界判断，head.Next 用于递归判断
 		return head
 	}
 
