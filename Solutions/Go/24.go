@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	tail := ListNode{5, nil}
 	next3 := ListNode{4, &tail}
@@ -10,6 +12,34 @@ func main() {
 	printListNode(*swapPairs(&head))
 }
 
-func swapPairs(head *ListNode) *ListNode {
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
 
+func printListNode(head ListNode) {
+	for {
+		fmt.Println(head.Val)
+		if head.Next == nil {
+			break
+		}
+		head = *head.Next
+	}
+}
+
+func swapPairs(head *ListNode) *ListNode {
+	dummy := ListNode{}
+	pre := &dummy
+	pre.Next = head
+
+	for pre.Next != nil && pre.Next.Next != nil {
+		cur := pre.Next
+		post := cur.Next
+
+		pre.Next, post.Next, cur.Next = post, cur, post.Next
+
+		pre = cur
+	}
+
+	return dummy.Next
 }
