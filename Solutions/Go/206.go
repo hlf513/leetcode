@@ -10,7 +10,7 @@ func main() {
 	next1 := ListNode{2, &next2}
 	head := ListNode{1, &next1}
 
-	printListNode(*reverseList(&head))
+	printListNode(*reverseList2(&head))
 }
 
 type ListNode struct {
@@ -18,7 +18,10 @@ type ListNode struct {
 	Next *ListNode
 }
 
-//  迭代
+/**
+方法一：迭代
+思路：从前往后反转，使用两个指针（pre，cur），每次迭代需要反转和移动指针
+*/
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
 	cur := head
@@ -30,18 +33,22 @@ func reverseList(head *ListNode) *ListNode {
 	return pre
 }
 
-// 递归
+/**
+方法二：递归
+思路：利用递归从后往前反转
+*/
 func reverseList2(head *ListNode) *ListNode {
-	if head == nil {
-		return nil
-	}
-	if head.Next == nil {
+	// 退出条件
+	if head == nil || head.Next == nil { // head 用于递归出栈判断，head.Next 用于递归入栈判断
 		return head
 	}
 
-	var node = reverseList2(head.Next)
-	head.Next.Next = head
-	head.Next = nil
+	// 下沉
+	var node = reverseList2(head.Next) // 最后一个节点
+
+	// 处理逻辑
+	head.Next.Next = head // 反转指针
+	head.Next = nil       // 断开旧连接
 
 	return node
 }
