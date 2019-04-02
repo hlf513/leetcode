@@ -3,6 +3,7 @@
 | Title                                                  | Solution | Notes |
 | ------------------------------------------------------------ | ---- | ---- |
 | [1. 两数之和](https://leetcode-cn.com/problems/two-sum/) | [Go](./Solutions/Go/1.go)   |   [暴力法 => hash](./Notes/1.md)   |
+| [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Go](./Solutions/Go/2.go)   |   |
 | [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |   [Go](./Solutions/Go/3.go)、[PHP](./Solutions/PHP/3.php)   |   [暴力法 => 滑动窗口](./Notes/3.md)   |
 | [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [Go](./Solutions/Go/14.go) | [水平扫描 => 分治](./Notes/14.md) |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [Go](./Solutions/Go/15.go) | [排序+三指针+剪枝](./Notes/15.md) |
