@@ -11,6 +11,7 @@
 |[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Go](./Solutions/Go/23.go)||
 |[23. 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](./Solutions/Go/21.go)||
 | [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](./Solutions/Go/24.go) | [迭代](./Notes/24.md) |
+|[25. k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|[Go](./Solutions/Go/25.go)||
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Go](./Solutions/Go/33.go) | [二分查找](./Notes/33.md) |
 |[42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Go](Solutions/Go/42.go)||
 |[43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)|[Go](Solutions/Go/43.go)|[按位相乘](Notes/43.md)|
