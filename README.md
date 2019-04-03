@@ -7,7 +7,8 @@
 | [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |   [Go](./Solutions/Go/3.go)、[PHP](./Solutions/PHP/3.php)   |   [暴力法 => 滑动窗口](./Notes/3.md)   |
 | [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [Go](./Solutions/Go/14.go) | [水平扫描 => 分治](./Notes/14.md) |
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [Go](./Solutions/Go/15.go) | [排序+三指针+剪枝](./Notes/15.md) |
-|[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Go](./Solutions/Go/21.go)||
+|[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Go](./Solutions/Go/23.go)||
+|[23. 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](./Solutions/Go/21.go)||
 | [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](./Solutions/Go/24.go) | [迭代](./Notes/24.md) |
 | [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Go](./Solutions/Go/33.go) | [二分查找](./Notes/33.md) |
 |[42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Go](Solutions/Go/42.go)||
