@@ -18,6 +18,7 @@
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](Solutions/Go/71.go)|[栈](Notes/71.md)|
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
 |[128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Go](Solutions/Go/128.go)|[hash table](Notes/128.md)|
+| [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |[Go](Solutions/Go/141.go)| |
 | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |[Go](Solutions/Go/142.go)| |
 |[148. 排序链表](https://leetcode-cn.com/problems/sort-list/)|[Go](Solutions/Go/148.go)||
 | [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [Go](./Solutions/Go/151.go) | [切分翻转](Notes/151.md) |
