@@ -27,6 +27,8 @@ func reverseList(head *ListNode) *ListNode {
 	cur := head
 
 	for cur != nil {
+		// cur.Next ： 翻转
+		// cur,pre ： 移动指针
 		cur.Next, cur, pre = pre, cur.Next, cur
 	}
 
