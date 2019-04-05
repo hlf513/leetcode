@@ -19,6 +19,7 @@
 | [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) |[Go](Solutions/Go/60.go)|[按位找规律](Notes/60.md)|
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](Solutions/Go/71.go)|[栈](Notes/71.md)|
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
+|[98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](Solutions/Go/98.go)||
 |[128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Go](Solutions/Go/128.go)|[hash table](Notes/128.md)|
 | [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |[Go](Solutions/Go/141.go)| |
 | [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |[Go](Solutions/Go/142.go)| |
