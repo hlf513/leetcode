@@ -30,6 +30,7 @@
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Go](./Solutions/Go/215.go) | [排序取值](Notes/215.md) |
 | [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](./Solutions/Go/225.go) | |
 | [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Go](./Solutions/Go/232.go) |  |
+| [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Go](./Solutions/Go/235.go) |  |
 | [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Go](./Solutions/Go/239.go) |  |
 | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Go](./Solutions/Go/242.go) |  |
 | [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [Go](./Solutions/Go/547.go) | [DFS=>BFS=>并查集](Notes/547.md) |
