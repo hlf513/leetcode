@@ -31,6 +31,7 @@
 | [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](./Solutions/Go/225.go) | |
 | [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Go](./Solutions/Go/232.go) |  |
 | [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Go](./Solutions/Go/235.go) |  |
+| [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Go](./Solutions/Go/236.go) |  |
 | [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Go](./Solutions/Go/239.go) |  |
 | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Go](./Solutions/Go/242.go) |  |
 | [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [Go](./Solutions/Go/547.go) | [DFS=>BFS=>并查集](Notes/547.md) |
