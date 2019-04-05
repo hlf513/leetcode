@@ -27,6 +27,7 @@
 |[148. 排序链表](https://leetcode-cn.com/problems/sort-list/)|[Go](Solutions/Go/148.go)||
 | [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [Go](./Solutions/Go/151.go) | [切分翻转](Notes/151.md) |
 |[160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[Go](Solutions/Go/160.go)||
+|[169. 求众数](https://leetcode-cn.com/problems/majority-element/)|[Go](Solutions/Go/169.go)||
 | [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Go](./Solutions/Go/206.go) | [迭代 、 递归](Notes/206.md) |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Go](./Solutions/Go/215.go) | [排序取值](Notes/215.md) |
 | [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](./Solutions/Go/225.go) | |
