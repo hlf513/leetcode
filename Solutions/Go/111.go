@@ -6,52 +6,45 @@ import (
 )
 
 func main() {
+	//  5
+	// 1,4
+	// 3,6
 	t1 := Common.TreeNode{5, nil, nil}
 	t2 := Common.TreeNode{1, nil, nil}
 	t3 := Common.TreeNode{4, nil, nil}
-	t4 := Common.TreeNode{}
-	t5 := Common.TreeNode{}
 	t6 := Common.TreeNode{3, nil, nil}
 	t7 := Common.TreeNode{6, nil, nil}
 	t1.Left = &t2
 	t1.Right = &t3
-	t2.Left = &t4
-	t2.Right = &t5
-	t3.Left = &t6
-	t3.Right = &t7
+	t2.Left = &t6
+	t2.Right = &t7
 
-	fmt.Println(maxDepth2(&t1))
+	fmt.Println(minDepth2(&t1))
 }
 
 /**
-方法一：暴力解法（左右子树深度比大小）
-方法二：DFS（判断是不是叶子节点，变量：max、min）
-方法三：BFS（层级）
+方法一：DFS（判断是不是叶子节点，变量：max、min）
+方法二：BFS（层级）
 */
 
-// 方法二
-func maxDepth(root *Common.TreeNode) int {
+// 方法一
+func minDepth(root *Common.TreeNode) int {
 	if root == nil {
 		return 0
 	}
 
-	max, min := 1, 0
+	var min = 0
+	dfs111(root, 1, &min)
 
-	dfs104(root, 1, &max, &min)
-
-	//fmt.Println(max, min)
-
-	return max
+	return min
 }
 
-func dfs104(root *Common.TreeNode, level int, max *int, min *int) {
+func dfs111(root *Common.TreeNode, level int, min *int) {
 	if root == nil {
 		return
 	}
-	if root.Right == nil && root.Left == nil {
-		if *max < level {
-			*max = level
-		}
+
+	if root.Left == nil && root.Right == nil {
 		if *min == 0 {
 			*min = level
 		} else if level < *min {
@@ -59,24 +52,28 @@ func dfs104(root *Common.TreeNode, level int, max *int, min *int) {
 		}
 	}
 
-	dfs104(root.Left, level+1, max, min)
-	dfs104(root.Right, level+1, max, min)
+	dfs111(root.Left, level+1, min)
+	dfs111(root.Right, level+1, min)
 }
 
-// 方法三
-func maxDepth2(root *Common.TreeNode) int {
+// 方法二
+func minDepth2(root *Common.TreeNode) int {
 	if root == nil {
 		return 0
 	}
 
 	var q []*Common.TreeNode
 	q = append(q, root)
-
-	var level int
+	level := 1
 
 	for len(q) > 0 {
 		for _, node := range q {
+			if node.Left == nil && node.Right == nil {
+				return level
+			}
 			q = q[1:]
+
+			// 注意：这里是 node 不是 root
 			if node.Left != nil {
 				q = append(q, node.Left)
 			}
