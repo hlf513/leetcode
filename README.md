@@ -9,6 +9,7 @@
 | [15. 三数之和](https://leetcode-cn.com/problems/3sum/) | [Go](./Solutions/Go/15.go) | [排序+三指针+剪枝](./Notes/15.md) |
 |[20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|[Go](./Solutions/Go/20.go)||
 |[21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Go](./Solutions/Go/23.go)||
+| [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |[Go](./Solutions/Go/22.go)||
 |[23. 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)|[Go](./Solutions/Go/21.go)||
 | [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Go](./Solutions/Go/24.go) | [迭代](./Notes/24.md) |
 |[25. k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)|[Go](./Solutions/Go/25.go)||
