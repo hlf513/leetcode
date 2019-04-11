@@ -19,6 +19,7 @@
 |[50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Go](Solutions/Go/50.go)||
 |[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Go](Solutions/Go/56.go)|[排序+遍历](Notes/56.md)|
 | [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) |[Go](Solutions/Go/60.go)|[按位找规律](Notes/60.md)|
+| [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) |[Go](Solutions/Go/69.go)||
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](Solutions/Go/71.go)|[栈](Notes/71.md)|
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
 |[98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](Solutions/Go/98.go)||
