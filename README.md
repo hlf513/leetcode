@@ -20,6 +20,7 @@
 |[56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Go](Solutions/Go/56.go)|[排序+遍历](Notes/56.md)|
 | [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence/) |[Go](Solutions/Go/60.go)|[按位找规律](Notes/60.md)|
 | [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) |[Go](Solutions/Go/69.go)||
+| [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |[Go](Solutions/Go/70.go)||
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](Solutions/Go/71.go)|[栈](Notes/71.md)|
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
 |[98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](Solutions/Go/98.go)||
@@ -43,6 +44,7 @@
 | [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Go](./Solutions/Go/236.go) |  |
 | [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Go](./Solutions/Go/239.go) |  |
 | [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Go](./Solutions/Go/242.go) |  |
+| [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) | [Go](./Solutions/Go/70.go) ||
 | [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/) | [Go](./Solutions/Go/547.go) | [DFS=>BFS=>并查集](Notes/547.md) |
 | [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/) | [Go](Solutions/Go/567.go) | [字符出现次数比较](Notes/567.md) |
 | [674. 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|[Go](Solutions/Go/674.go)  | [迭代一次](Notes/674.md) |
