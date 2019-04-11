@@ -39,6 +39,7 @@
 | [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Go](./Solutions/Go/206.go) | [迭代 、 递归](Notes/206.md) |
 | [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Go](./Solutions/Go/215.go) | [排序取值](Notes/215.md) |
 | [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Go](./Solutions/Go/225.go) | |
+| [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/) | [Go](./Solutions/Go/231.go) |  |
 | [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Go](./Solutions/Go/232.go) |  |
 | [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Go](./Solutions/Go/235.go) |  |
 | [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Go](./Solutions/Go/236.go) |  |
