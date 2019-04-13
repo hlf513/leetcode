@@ -27,6 +27,7 @@
 |[98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](Solutions/Go/98.go)||
 |[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[Go](Solutions/Go/102.go)||
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|[Go](Solutions/Go/104.go)||
+|[105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Go](Solutions/Go/105.go)||
 |[111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)|[Go](Solutions/Go/111.go)||
 |[122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Go](Solutions/Go/122.go)||
 |[128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Go](Solutions/Go/128.go)|[hash table](Notes/128.md)|
