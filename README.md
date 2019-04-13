@@ -23,6 +23,7 @@
 | [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/) |[Go](Solutions/Go/70.go)||
 |[71. 简化路径](https://leetcode-cn.com/problems/simplify-path/)|[Go](Solutions/Go/71.go)|[栈](Notes/71.md)|
 |[93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](Solutions/Go/93.go)|[分治 + 递归](Notes/93.md)|
+|[94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)|[Go](Solutions/Go/94.go)||
 |[98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](Solutions/Go/98.go)||
 |[102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[Go](Solutions/Go/102.go)||
 |[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)|[Go](Solutions/Go/104.go)||
