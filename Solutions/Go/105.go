@@ -14,6 +14,9 @@ func main() {
 
 }
 
+/**
+方法：递归（根据遍历找规律，先找根，再找左右子树）
+*/
 func buildTree(preorder []int, inorder []int) *Common.TreeNode {
 	if len(preorder) == 0 {
 		return nil
