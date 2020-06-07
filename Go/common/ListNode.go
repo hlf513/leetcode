@@ -33,11 +33,15 @@ func CreateListNode(nodes []int) *ListNode {
 
 // PrintLIstNode 打印链表
 func PrintListNode(head *ListNode) {
-	for {
+	for head != nil {
 		fmt.Println(head.Val)
-		if head.Next == nil {
-			break
-		}
 		head = head.Next
 	}
+}
+
+// 双向循环链表
+type DoublyList struct {
+	Val  int
+	Pre  *DoublyList
+	Next *DoublyList
 }
