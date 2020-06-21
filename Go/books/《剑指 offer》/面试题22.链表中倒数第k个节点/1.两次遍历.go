@@ -18,13 +18,13 @@ func main() {
 func getKthFromEnd(head *common.ListNode, k int) *common.ListNode {
 	// 先遍历到最后一个节点，并记录长度
 	var n int
-	var cur = head 
+	var cur = head
 	for cur != nil {
 		n++
 		cur = cur.Next
 	}
 
-	// 从前往后遍历，返回 n-k 
+	// 从前往后遍历，返回 n-k
 	for i := 1; i <= n-k; i++ {
 		head = head.Next
 	}

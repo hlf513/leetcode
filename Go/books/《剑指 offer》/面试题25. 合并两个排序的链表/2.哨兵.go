@@ -2,14 +2,6 @@ package main
 
 import "leetcode/common"
 
-func main() {
-	l1 := common.CreateListNode([]int{3, 5})
-	l2 := common.CreateListNode([]int{1, 3})
-	l := mergeTwoLists2(l1, l2)
-
-	common.PrintListNode(l)
-}
-
 /**
 解题思路： 利用哨兵，遍历两个链表；dummy 用于返回头节点，pre 用于构建新链表
 时间复杂度：m+n

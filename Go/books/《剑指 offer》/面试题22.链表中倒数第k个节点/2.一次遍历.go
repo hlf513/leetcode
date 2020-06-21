@@ -4,13 +4,6 @@ import (
 	"leetcode/common"
 )
 
-func main() {
-	head := common.CreateListNode([]int{1, 2, 3, 4, 5})
-
-	common.PrintListNode(getKthFromEnd2(head, 2))
-
-}
-
 /**
 解题思路： 一次遍历，使用数组存储节点，直接返回下标 n-k 的节点
 时间复杂度：N

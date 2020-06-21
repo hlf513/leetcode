@@ -1,9 +1,5 @@
 package main
 
-func main()  {
-		
-}
-
 /**
 解题思路：投票，第一个元素为第一个候选者，遍历每个元素，若票数=0则替换候选者，然后若元素=候选者则票数+1，反之减一；遍历结束时的候选者就是众数
 时间复杂度：N
@@ -31,4 +27,4 @@ func majorityElement3(nums []int) int {
 	}
 
 	return candidate
-}	
+}
