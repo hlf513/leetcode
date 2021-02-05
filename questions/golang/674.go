@@ -11,6 +11,11 @@ func main() {
 	fmt.Println(findLengthOfLCIS(nums))
 }
 
+/**
+ 解题思路：迭代+比较
+ 时间复杂度：O(n)
+ 空间复杂度：O(1)
+*/
 func findLengthOfLCIS(nums []int) int {
 	max, c, n := 1, 0, len(nums)
 

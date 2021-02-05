@@ -10,6 +10,13 @@ func main() {
 
 }
 
+/**
+ * 解题思路：二分法
+ *		中间值 < 最右值：右边有序
+ * 		中间值 > 最左值：左边有序
+ * 时间复杂度：O(logn)
+ * 空间复杂度：O(n)
+*/
 func search(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1

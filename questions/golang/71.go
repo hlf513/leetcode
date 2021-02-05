@@ -14,6 +14,13 @@ func main() {
 	fmt.Println(simplifyPath(path))
 }
 
+/**
+ * 解题思路：栈
+ * 		1. 切分入栈
+ * 		2. 处理..
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
+*/
 func simplifyPath(path string) string {
 	paths := strings.Split(path, "/")
 	n := len(paths)

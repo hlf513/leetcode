@@ -13,6 +13,15 @@ func main() {
 	fmt.Println(multiply(n1, n2))
 }
 
+/**
+ * 解题思路：拆分字符串，按位相乘
+ * 		注意：
+ * 		1. 字符串相乘，长度不会超过字符串数量之和
+ * 		2. 计算中间值的下标
+ * 		3. 进位要多遍历一次，别忘记去除开头0
+ * 时间复杂度：O(s1*s2)
+ * 空间复杂度：O(s1+s2)
+*/
 func multiply(num1 string, num2 string) string {
 	if num1 == "0" || num2 == "0" {
 		return "0"

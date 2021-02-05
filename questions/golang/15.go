@@ -11,6 +11,15 @@ func main() {
 	fmt.Println(threeSum(nums))
 }
 
+/**
+ * 解题法：排序+三指针+剪枝
+ * 解题思路：排序 + 使用三个指针 + 剪枝
+ * 		1. 固定一个a，用左右指针找和为-a的两个数
+ *		2. 注意三个指针都要去重
+ * 		3. 注意边界
+ * 时间复杂度：O(nlogn)
+ * 空间复杂度：O(n)
+*/
 func threeSum(nums []int) [][]int {
 	// 排序
 	sort.Ints(nums)

@@ -11,6 +11,13 @@ func main() {
 	fmt.Println(findKthLargest(nums, k))
 }
 
+/**
+ 解题思路：排序
+	1. 快排（从大到小）
+	2. 取下标 k-1 的值
+ 时间复杂度：O(nlogn~n^2)
+ 空间复杂度：O(n)
+*/
 func findKthLargest(nums []int, k int) int {
 	qSort(nums)
 	return nums[k-1]

@@ -31,6 +31,9 @@ func restoreIpAddresses(s string) []string {
 @param k 还剩下几段（一共5段）
 @param out 满足条件后，拼接的字符串
 @param res 保存所有的结果
+
+时间复杂度：O(n^5)
+空间复杂度：O(n)
 */
 func restore(s string, k int, out string, res *[]string) {
 	// 退出条件

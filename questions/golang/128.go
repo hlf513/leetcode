@@ -7,6 +7,14 @@ func main() {
 	fmt.Println(longestConsecutive(nums))
 }
 
+/**
+ 解题思路：哈希表
+ 	1. 构建哈希表
+	2. 判断前后数字是否存在，存在+1
+	3. 记录最大值
+ 时间复杂度：O(n)
+ 空间复杂度：O(n)
+*/	
 func longestConsecutive(nums []int) int {
 	var hashmap = make(map[int]int)
 

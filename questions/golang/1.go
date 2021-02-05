@@ -12,6 +12,11 @@ func main() {
 	fmt.Println(twoSum(nums, target))
 }
 
+/**
+ * 解题思路：Hash，把遍历过的值放入 hash 中，若 target 存在，则直接返回
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(2n)
+*/
 func twoSum(nums []int, target int) []int {
 	var res []int
 	var hash = make(map[int]int)

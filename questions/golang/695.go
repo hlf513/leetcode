@@ -23,6 +23,12 @@ func main() {
 	fmt.Println(maxAreaOfIsland2(grid))
 }
 
+/**
+ 解题思路：递归
+  	每个1要判断左、右、上、下
+ 时间复杂度：O(n^3)
+ 空间复杂度：O(1)
+*/
 func maxAreaOfIsland(grid [][]int) int {
 	var m = len(grid)
 	var n = len(grid[0])
@@ -58,6 +64,11 @@ func count(grid [][]int, i, j int, cnt, res *float64) {
 	}
 }
 
+/**
+ 解题思路：BFS
+ 时间复杂度：O(n)
+ 空间复杂度：O(1)
+*/
 func maxAreaOfIsland2(grid [][]int) int {
 	var m = len(grid)
 	var n = len(grid[0])

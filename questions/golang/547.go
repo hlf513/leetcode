@@ -19,6 +19,12 @@ func main() {
 	fmt.Println(findCircleNum(M))
 }
 
+/**
+ 解题思路：DFS
+	找一个朋友后，递归遍历朋友的朋友圈
+ 时间复杂度：O(n^m)
+ 空间复杂度：O(n)
+*/
 func findCircleNum(M [][]int) int {
 	var v = make(map[int]int)
 	var res int

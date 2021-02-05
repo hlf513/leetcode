@@ -12,6 +12,13 @@ func main() {
 	fmt.Println(checkInclusion(s1, s2))
 }
 
+/**
+ 解题思路：字符出现次数
+	1. 把 s2 按照 s1 长度切分为若干个子串
+	2. 比较s2子串中字符出现次数是否和 s1相等
+ 时间复杂度：O(s1*s2)
+ 空间复杂度：O(s1)
+*/
 func checkInclusion(s1 string, s2 string) bool {
 
 	count1 := len(s1)

@@ -38,6 +38,13 @@ type Interval struct {
 	End   int
 }
 
+/**
+ * 解题思路：排序+遍历
+ * 		排序：快速排序(相等则需要判断 end 值)
+ * 		遍历：更新 end，要取最大值
+ * 时间复杂度：O(logn)
+ * 空间复杂度：O(n)
+*/
 func merge(intervals []Interval) []Interval {
 	if len(intervals) < 1 {
 		return []Interval{}
